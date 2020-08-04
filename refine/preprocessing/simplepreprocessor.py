@@ -12,5 +12,8 @@ class SimplePreprocessor:
 	def preprocess(self, image):
 		# resize the image to a fixed size, ignoring the aspect
 		# ratio
+		image = cv2.GaussianBlur(image,(5,5),0)
+		# denoising of image saving it into dst image 
+		#image = cv2.blur(image, (10,10)) 
 		return cv2.resize(image, (self.width, self.height),
 			interpolation=self.inter)

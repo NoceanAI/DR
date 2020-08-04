@@ -1,19 +1,20 @@
 {
 "0" : [
-    "Mild",
-    "Mild"
-],
-"1" : [
-    "Moderate",
-    "Moderate"
-],
-"2" : [
     "No_DR",
     "No_DR"
 ],
+"1" : [
+    "Mild",
+    "Mild"
+],
+"2" : [
+    "Moderate",
+    "Moderate"
+],
 "3" : [
-    "Proliferate_DR",
-    "Proliferate_DR"
+    "Proliferate",
+    "Proliferate"
+
 ],
 "4" : [
     "Severe",
